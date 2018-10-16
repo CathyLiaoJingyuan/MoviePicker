@@ -54,7 +54,9 @@ function getMovie() {
       <br>
  <div class="row">
           <div class="col-md-4">
-            <img src="${checkImage(movie)}" class="thumbnail">
+            <img src="${checkImage(
+              movie
+            )}" class="thumbnail" style="width:100%; height:100%">
           </div>
           <div class="col-md-8">
             <h2>${movie.Title}</h2>
